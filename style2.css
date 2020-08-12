@@ -5,6 +5,22 @@
   box-sizing: border-box;
 }
 
+.gallery-section .links a {
+  background-color: black;
+  color: white;
+  padding: .5em .5em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.gallery-section .links a:hover {
+  background-color: #555;
+}
+
+.gallery-section .links a:active {
+  background-color: darkgreen;
+}
+
 .gallery-section{
   width: 100%;
   padding: 60px 0;
